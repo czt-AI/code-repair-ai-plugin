@@ -1,0 +1,1 @@
+请生成此路径下的文件内容，不用做任何解释: code-repair-ai-plugin/docs/ContributionGuide.md

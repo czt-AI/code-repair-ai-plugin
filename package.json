@@ -1,0 +1,19 @@
+{
+  "name": "code-repair-ai-plugin",
+  "version": "1.0.0",
+  "description": "AI项目代码修复器（基于LLM的VSCode插件）",
+  "main": "src/extension.ts",
+  "scripts": {
+    "start": "tsc && electron .",
+    "build": "tsc && electron-builder --config .electron-builder.json"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5",
+    "electron": "^21.0.0",
+    "electron-builder": "^23.0.0",
+    "vscode": "^1.74.0"
+  },
+  "dependencies": {
+    "openai": "^0.27.0"
+  }
+}
